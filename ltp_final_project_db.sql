@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 03, 2021 at 01:28 AM
+-- Generation Time: Dec 03, 2021 at 11:02 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -32,6 +32,14 @@ CREATE TABLE `role` (
   `desc` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `role`
+--
+
+INSERT INTO `role` (`no`, `desc`) VALUES
+(1, 'admin'),
+(2, 'user');
+
 -- --------------------------------------------------------
 
 --
@@ -44,6 +52,15 @@ CREATE TABLE `user` (
   `Pass` text NOT NULL,
   `role` tinyint(4) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `Nama`, `Pass`, `role`) VALUES
+(1, 'hanz', '123', 1),
+(2, 'didi', '456', 2),
+(3, 'rita', '789', 1);
 
 --
 -- Indexes for dumped tables
