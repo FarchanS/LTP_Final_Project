@@ -26,6 +26,8 @@ if(isset($_POST['login'])){
         {
             echo "yess.. login suksess..";
             echo '<script>alert("yess.. login suksess..")</script>';
+            header("Location: http://localhost/TLP_final_project/index.php");
+            exit();
         }
         else 
         {
