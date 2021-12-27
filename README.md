@@ -1,2 +1,2 @@
-# LTP_Final_Project
-Logika dan Teknik Pemrograman Final Project
+# LTP_kel7_pendaftaran_RS
+pendaftaran antrian rumah sakit

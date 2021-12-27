@@ -1,0 +1,7 @@
+pip install schedule
+
+pip install APScheduler
+https://apscheduler.readthedocs.io/en/3.x/userguide.html#installing-apscheduler
+
+https://github.com/agronholm/apscheduler/tree/3.x/examples/schedulers
+https://github.com/agronholm/apscheduler/tree/3.x/examples/?at=master
